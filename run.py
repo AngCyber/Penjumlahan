@@ -17,8 +17,8 @@ while __soal__ <= __hasil__:
 	print(f"{P}>. Soal dari {H}{__soal__}{P}/{H}{__hasil__}")
 	print(f"{P}>. Nilai kamu : {H}{__nilai__}{P}")
 	print(f"\n{P}?. Berapa hasil dari penjumlahan berikut")
-	aku = random.randint(1,50)
-	kamu = random.randint(1,50)
+	aku = random.randint(1,100)
+	kamu = random.randint(1,100)
 	anak = aku + kamu
 	print(f"{P}>. {H}{aku} + {kamu}{P} = berapa?")
 	__jawab__ = int(input(f"{P}?. Jawab : "))
